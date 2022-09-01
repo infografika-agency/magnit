@@ -28,7 +28,7 @@ a {
 }
 
 .content{
-  margin: 3rem 2rem;
+  margin: 3rem 1rem;
 }
 
 h2{
@@ -73,7 +73,7 @@ ul{
 }
 
 li{
-  padding: 0 0.2rem;
+  padding: 0.15rem 0.2rem;
 }
 
 .lead{
@@ -97,6 +97,12 @@ a:hover {
   border-bottom: 2px solid currentColor;
 }
 
+
+.tagListVert .tagInactive{
+  background-color: transparent;
+  color: #222222;
+  opacity: 0.3;
+}
 
 
 
@@ -273,12 +279,11 @@ ul{
 .tag {
   padding: 5px 14px;
   background-color: #fff;
-  color: #1a1b1c;
+  color: #222222;
   border-radius: 20px;
   line-height: 1;
-  font-weight: 500;
   width: fit-content;
-  font-size: max(12px, min(calc(4px + .625vw), 16px));
+  font-size: 0.8rem;
 }
 
 .tagList{
@@ -295,6 +300,32 @@ ul{
   border: 0.1rem solid #fff;
   color: #fff;
 } */
+
+
+.tagListVert{
+  padding-top: 1rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  position: sticky!important;
+  top: 1rem;
+  justify-content: flex-end
+}
+
+.tagListVert .tag{
+  background-color: transparent;
+}
+
+.tagListVert li{
+ padding: 0;
+}
+
+
+.tagListVert ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
 .logo{
   width: 6rem;
@@ -382,7 +413,30 @@ ul{
 
   .lead{
     width: 25rem;
+    margin-left:0;
   }
 
+
+
+
+  .tagList ul{
+    flex-direction: column;
+  }
+
+  .tagListVert{
+    display: none;
+  }
+
+  .titlesLead{
+    flex-direction: column;
+  }
+
+  .tag{
+    font-size: 1rem;
+  }
+
+  .logo{
+    width: 8rem;
+  }
 
 }
