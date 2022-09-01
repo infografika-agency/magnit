@@ -233,7 +233,7 @@ article {
 .lines {
   width: 13rem;
   color: white;
-  margin: 4rem 0;
+  margin: 3rem 0;
 }
 
 
@@ -536,6 +536,11 @@ letter-spacing: normal;
     font-size: 0.9rem;
   }
 
+  .logo {
+    width: 8rem;
+  }
+  
+
   h1{
     padding-top: 0.5rem;
     font-size: 3rem;
@@ -562,10 +567,6 @@ letter-spacing: normal;
     font-size: 0.8rem;
   }
 
-  .logo {
-    width: 8rem;
-  }
-
 
   .logoInf {
     width: 18rem;
@@ -573,8 +574,7 @@ letter-spacing: normal;
   }
 
   .logoMagnit {
-    width: 12rem;
-
+width: 20rem!important;
   }
 
   .scrolly{
@@ -585,4 +585,6 @@ letter-spacing: normal;
   #chart1{
     display: none;
   }
+
+
 }
