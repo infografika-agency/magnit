@@ -19,7 +19,7 @@
         el.classList.add('is-active');
 
         // update graphic based on step
-        document.getElementById("stickyImage").src=`images/image${el.dataset.step}.png`;
+        document.getElementById("stickyImage").src=`images/image${el.dataset.step}.svg`;
       }
 
       function init() {
