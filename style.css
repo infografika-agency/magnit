@@ -290,11 +290,12 @@ ul{
   padding-top: 2rem;
 }
 
-.tagInactive{
+/* .tagInactive{
   background-color: transparent;
   border: 0.1rem solid #fff;
   color: #fff;
-}
+} */
+
 .logo{
   width: 6rem;
 }
