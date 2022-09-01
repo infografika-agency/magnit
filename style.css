@@ -286,6 +286,15 @@ ul{
   flex-direction: row;
 }
 
+.illustrationCard{
+  padding-top: 2rem;
+}
+
+.tagInactive{
+  background-color: transparent;
+  border: 0.1rem solid #fff;
+  color: #fff;
+}
 .logo{
   width: 6rem;
 }
