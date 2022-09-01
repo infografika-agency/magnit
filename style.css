@@ -581,4 +581,8 @@ letter-spacing: normal;
     max-width: 30rem;
     margin: 0 auto;
   }
+
+  #chart1{
+    display: none;
+  }
 }
