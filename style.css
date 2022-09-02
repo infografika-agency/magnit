@@ -242,7 +242,7 @@ article {
 }
 
 .logoMagnit {
-  width: 14rem;
+  width: 14rem!important;
 }
 
 
@@ -569,6 +569,7 @@ letter-spacing: normal;
     width: 8rem;
   }
   
+  
 
   h1{
     padding-top: 0.5rem;
@@ -603,7 +604,7 @@ letter-spacing: normal;
   }
 
   .logoMagnit {
-width: 20rem!important;
+width: 14rem!important;
   }
 
   .scrolly{
