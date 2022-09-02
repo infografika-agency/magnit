@@ -39,4 +39,11 @@
       init();
 
 
-     
+
+      $(document).ready(
+              function() {
+                  $(".tooltip").click(function() {
+                      $(".tooltipTexy").toggle();
+                  });
+              });
+      
