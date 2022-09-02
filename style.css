@@ -560,6 +560,7 @@ letter-spacing: normal;
 
   .lead {
     width: 80%;
+    max-width: 29rem;
     margin-left: 0;
     font-size: 0.9rem;
   }
