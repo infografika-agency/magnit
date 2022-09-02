@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-size: 16px;
+  font-size: 1vw;
 }
 
 body {
@@ -385,7 +385,7 @@ font-weight: 400;
 
 
 
-.tooltip:hover .tooltipText {
+.tooltip:hover  .tooltipText {
   padding: 1rem 2rem 1rem 1.6rem;
   visibility: visible;
   background-color: #E30510;
@@ -398,10 +398,38 @@ font-weight: 400;
   font-size: 0.8rem;
 text-transform: none;
 letter-spacing: normal;
+}
 
+.tooltip:active  .tooltipText {
+  padding: 1rem 2rem 1rem 1.6rem;
+  visibility: visible;
+  background-color: #E30510;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  text-align: left;
+  z-index: 5;
+  font-size: 0.8rem;
+text-transform: none;
+letter-spacing: normal;
 }
 
 
+.tooltip:focus  .tooltipText {
+  padding: 1rem 2rem 1rem 1.6rem;
+  visibility: visible;
+  background-color: #E30510;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  text-align: left;
+  z-index: 5;
+  font-size: 0.8rem;
+text-transform: none;
+letter-spacing: normal;
+}
 
 .tooltipText p {
   font-size: 0.8rem;
@@ -438,7 +466,7 @@ letter-spacing: normal;
 
 @media only screen and (max-width: 800px) {
   html {
-    font-size: 16px;
+    font-size: 3vw;
   }
 
   body {
@@ -531,7 +559,7 @@ letter-spacing: normal;
   }
 
   .lead {
-    width: 25rem;
+    width: 80%;
     margin-left: 0;
     font-size: 0.9rem;
   }
